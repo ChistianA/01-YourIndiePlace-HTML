@@ -1,7 +1,7 @@
 # 01-YourIndiePlace-HTML
 **Anteproyecto**
 
-**Introducción**
+**Introducción**n\
 Para los amantes de la música y los eventos en vivo, muchas veces se hace complicado llevar un seguimiento de sus bandas favoritas o descubrir nuevas bandas locales que están realizando toques para darse a conocer, ya que su alcance es muy limitado y solo se conocen por recomendaciones de amigos o de mera casualidad porque son invitadas por bandas más populares.
 Así es como surge You'r Indie Place, una página desarrollada por artistas, para artistas. Donde podrás encontrar noticias diarias sobre tus bandas favoritas, así como descubrir otras que apenas están debutando o empiezan a dar sus primeros eventos en vivo.
 También tendrás un apartado para comprar su merchandising, como camisetas, posters, gorras, etc.
