@@ -29,8 +29,8 @@ You’r Indie Place se diferencia en que da voz a bandas locales de la ciudad de
 Desarrollar una plataforma web donde se publique información acerca de eventos en vivo de bandas locales independientes de la ciudad de Medellín.
 
 **Objetivos específicos**\
-**1.** Mantener gratis el servicio de la página implementando un modelo de negocio basado en publicidad sostenible para el mantenimiento a futuro de la página.
-**2.** Diseñar un estilo amigable con el usuario, basado principalmente en la estética indie, con la finalidad de hacer que la comunidad de fans y bandas sientan la confianza de que el sitio es de ellos.
+**1.** Mantener gratis el servicio de la página implementando un modelo de negocio basado en publicidad sostenible para el mantenimiento a futuro de la página.\
+**2.** Diseñar un estilo amigable con el usuario, basado principalmente en la estética indie, con la finalidad de hacer que la comunidad de fans y bandas sientan la confianza de que el sitio es de ellos.\
 **3.** Permitirle a los usuarios disfrutar de actualizaciones constantes y de contenido nuevo de manera frecuente, para fomentar el hábito de estar al tanto y participar de eventos en vivo.
 
 **Descripción de la página**\
