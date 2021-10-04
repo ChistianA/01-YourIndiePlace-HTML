@@ -1,0 +1,83 @@
+@font-face {
+	src: url(../fonts/News_Peper_01.ttf);
+	font-family: NewsPaper01;
+}
+
+.header-main{
+	background-color: #2E0058FF;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.title-container{
+	position: relative;
+	bottom: 20px;
+	color: white;
+	font-size: 30px;
+	display: inline-block;
+	font-family: Roboto;
+}
+.nav-container{
+	display: inline-block;
+	position: relative;
+	left: 800px;
+	bottom: 30px;
+
+}
+.nav-container ul a{
+	font-size: 35px;
+	font-family: NewsPaper01;
+	color: white;
+	padding-bottom: 7px;
+	margin: 10px;
+
+}
+
+.nav-container ul a:hover{
+	border-radius: 3px;
+	border-bottom: 4px solid white;
+	transition: border-bottom .1s;
+}
+
+.icon-container{
+	position: relative;
+	padding-left: 10px;
+	bottom: 10px;
+	height: 65px;
+	display: inline-block;
+}
+
+.img__icono{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	box-sizing: content-box;
+	object-fit: contain;
+}
+
+.body-container{
+	display: flex;
+	box-sizing: border-box;
+	border: 3px solid red;
+	flex-direction: column;
+	height: 100vh;
+}
+.news-container{
+	display: flex;
+	border: 2px solid blue;
+	height: 650px;
+	width: 1800px;
+	align-items: center;
+	justify-content: center;
+}
+
+.news-container > img{
+}
+
+.post-container{
+	display: flex;
+	border: 2px solid green;
+	flex-wrap: wrap;
+
+}
