@@ -3,6 +3,15 @@
 	font-family: NewsPaper01;
 }
 
+body{
+	background-image: url(../Assets/paper.png);
+}
+
+.newspaper_img{
+	position: relative;
+    -webkit-user-drag: none;
+}
+
 .header-main{
 	background-color: #2E0058FF;
 	width: 100%;
@@ -63,20 +72,38 @@
 	display: grid;
 	margin: 40px 0px 40px 220px;
 	margin-left: 220px;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	grid-auto-rows: 530px;
+	grid-template-columns: 400px 500px 270px 270px;
+	grid-template-rows: 265px;
 	grid-gap: 5px;
-	border: 3px solid green;
 	height: 530px;
 	width: 1440px;
-	background-color: gray;
 }
 
 .news-container img{
-	border: 2px solid blue;
 	width: 100%;
+}
+.Wallows{
 	height: 100%;
-	object-fit: cover;
+	grid-row: 1 / 3;
+	grid-column: 1 / 2;
+}
+
+.IndieRock{
+	height: 100%;
+	grid-row: 1 / 3;
+	grid-column: 2 / 3;
+}
+
+.IndieConcert{
+	grid-row: 2 / 3;
+	grid-column: 3 / 5;
+	height: 265px;
+}
+
+.Outfits{
+	height: 100%;
+	grid-row: 1 / 2;
+	grid-column: 3 / 5;
 }
 
 .post-container{
