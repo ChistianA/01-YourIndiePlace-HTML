@@ -7,13 +7,21 @@ body{
 	background-image: url(../Assets/paper.png);
 }
 
-.newspaper_img{
+.newspaper_container{
+	display: flex;
 	position: absolute;
-	right: 1650px;
-	width: 500px;
-	-webkit-box-reflect: right 1397px;
+	top: 100px;
+	right: auto;
+	height: 1050px;
+	width: 250px;
+}
+
+.newspaper_img{
+	width: 100%;
+	object-fit: none;
+	object-position: right;
+	-webkit-box-reflect: right 73vw;
     -webkit-user-drag: none;
-    z-index: -2;
 }
 
 .header-main{
@@ -69,9 +77,6 @@ body{
 	object-fit: contain;
 }
 
-.body-container{
-
-}
 .news-container{
 	display: grid;
 	margin: 40px 0px 40px 220px;
