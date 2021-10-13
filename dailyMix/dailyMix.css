@@ -1,0 +1,92 @@
+@font-face {
+	src: url(../fonts/News_Peper_01.ttf);
+	font-family: NewsPaper01;
+}
+
+body{
+	background-image: url(../Assets/paper.png);
+}
+
+.newspaper_container{
+	display: flex;
+	position: absolute;
+	top: 100px;
+	right: auto;
+	height: 1050px;
+	width: 250px;
+}
+
+.newspaper_img{
+	width: 100%;
+	object-fit: none;
+	object-position: right;
+	-webkit-box-reflect: right 73vw;
+    -webkit-user-drag: none;
+}
+
+.header-main{
+	background-color: #2E0058FF;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.title-container{
+	position: relative;
+	bottom: 20px;
+	color: white;
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-container{
+	display: inline-block;
+	position: relative;
+	left: 800px;
+	bottom: 30px;
+
+}
+.nav-container ul a{
+	font-size: 35px;
+	font-family: NewsPaper01;
+	color: white;
+	padding-bottom: 7px;
+	margin: 10px;
+
+}
+
+.nav-container ul a:hover{
+	border-radius: 3px;
+	border-bottom: 4px solid white;
+	transition: border-bottom .1s;
+}
+
+.icon-container{
+	position: relative;
+	padding-left: 10px;
+	bottom: 10px;
+	height: 65px;
+	display: inline-block;
+}
+
+.img__icono{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	box-sizing: content-box;
+	object-fit: contain;
+}
+
+.main_view{
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	border: 2px solid red;
+	width: 80%;
+	height: 50vh;
+}
+
+.search_bar_container{
+	border: 5px solid green;
+}
+

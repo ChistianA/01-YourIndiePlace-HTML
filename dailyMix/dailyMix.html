@@ -4,11 +4,25 @@
 	<meta charset="utf-8">
 	<title>Your Indie Place</title>
 	<link rel="icon" href="Assets/icono.ico">
+	<link rel="stylesheet" type="text/css" href="dailyMix.css">
+	<link rel="stylesheet" type="text/css" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<h1><a href="../main/index.html">You'r Indie Place</a></h1>
-		<nav>
+	<div class="newspaper_container">
+		<img class="newspaper_img" src="../Assets/newspaper_tileable_cut.png">
+	</div>
+	<header class="header-main">
+		<div class="icon-container">
+			<img class="img__icono" src="../Assets/icono.ico" alt="YIP_Icon" title="Icon">
+		</div>
+
+		<div class="title-container">
+			<h1>You'r Indie Place</h1>
+		</div>
+		<nav class="nav-container">
 			<ul>
 				<a href="../news/news.html">News</a>
 				<a href="../tours/tours.html">Tours</a>
@@ -18,5 +32,45 @@
 			</ul>
 		</nav>
 	</header>
+	<article class="main_view">
+		<div class="search_bar_container">
+			<input type="text" name="Search_Bar" placeholder="Search Playlist">
+		</div>
+		<div>
+			<img src="">
+			<h2>Alone Whith My Self</h2>
+			<h4>Playlist</h4>
+		</div>
+		<div>
+			<div class="song">
+				<b>Falling in the stars</b>
+				<b>My Blood</b>
+				<b>Viva la Vida</b>
+				<b>Brithish Bombs</b>
+				<b>American Boy</b>
+			</div>
+			<div class="artist">
+				<b>Amichi</b>
+				<b>Twenty One Pilots</b>
+				<b>Coldplay</b>
+				<b>Declan McKenna</b>
+				<b>Estelle Ft. Kanye West</b>				
+			</div>
+			<div class="album">
+				<b>Falling in the stars</b>
+				<b>Trench</b>
+				<b>Viva la Vida</b>
+				<b>British Bombs</b>
+				<b>American Boy</b>				
+			</div>
+			<div class="date">
+				<b>2021-07-12</b>
+				<b>2021-06-01</b>
+				<b>2020-06-02</b>
+				<b>2020-07-09</b>
+				<b>2019-12-06</b>				
+			</div>
+		</div>
+	</article>
 </body>
 </html>
