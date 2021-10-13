@@ -29,7 +29,7 @@ body{
 	color: white;
 	font-size: 30px;
 	display: inline-block;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 }
 .nav-container{
 	display: inline-block;
@@ -116,7 +116,7 @@ h4{
 }
 .post-container{
 	display: flex;
-	height: 540px;
+	height: 430px;
 	margin-left: 220px;
 	justify-content: space-between;
 	width: 1455px;
@@ -125,6 +125,7 @@ h4{
 
 .post-container section{
 	background-color: #BBBBBB80;
+	height: 420px;
 	width: 450px;
 }
 
@@ -143,3 +144,28 @@ h4{
 .Recent-post-container img{
 	width: 410px;
 }
+
+p, h5{
+	font-family: 'Roboto', sans-serif;
+}
+
+.Artist-container img{
+	width: 250px;
+	height: 250px;
+}
+.Sale-container__aside{
+	font-size: 25px;
+	position: relative;
+	left: 280px;
+	bottom: 325px;
+	width: 150px;
+}
+
+.Artist-container__aside{
+	font-size: 25px;
+	position: relative;
+	left: 280px;
+	bottom: 275px;
+	width: 150px;
+}
+
