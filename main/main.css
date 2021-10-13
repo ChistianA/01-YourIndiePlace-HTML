@@ -8,8 +8,12 @@ body{
 }
 
 .newspaper_img{
-	position: relative;
+	position: absolute;
+	right: 1650px;
+	width: 500px;
+	-webkit-box-reflect: right 1397px;
     -webkit-user-drag: none;
+    z-index: -2;
 }
 
 .header-main{
@@ -106,8 +110,36 @@ body{
 	grid-column: 3 / 5;
 }
 
+h4{
+	font-family: NewsPaper01;
+	font-size: 40px;
+}
 .post-container{
 	display: flex;
-	border: 2px solid green;
+	height: 540px;
+	margin-left: 220px;
+	justify-content: space-between;
+	width: 1455px;
 	flex-wrap: wrap;
+}
+
+.post-container section{
+	background-color: #BBBBBB80;
+	width: 450px;
+}
+
+.post-container h4{
+	width: 410px;
+	margin-left: 20px;
+	padding: 20px 20px 0 0;
+	border-bottom: 4px solid black;
+	border-radius: 3px;
+}
+
+.post-container img{
+	margin: 20px;
+}
+
+.Recent-post-container img{
+	width: 410px;
 }
