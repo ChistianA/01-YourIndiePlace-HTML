@@ -86,6 +86,55 @@ body{
 	object-fit: contain;
 }
 
+.search_bar_container{
+	height: 55px;
+	margin-top: 20px;
+	margin-left: 220px;
+}
+
+::placeholder{
+	color: #444;
+}
+
+.search_bar{
+	height: 50px;
+	width: 700px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: #33333355;
+	color: #444;
+	font-family: OldNewsPaper;
+	font-size: 25px;
+	padding-left: 30px;
+	outline: none;
+}
+
+.shopping-cart_container{
+	display: flex;
+	position: absolute;
+	border-style: none;
+	left: 930px;
+	bottom: 707px;
+	z-index: 5;
+	border-radius: 50px;
+	background-color: #2E0058FF;
+	height: 50px;
+	width: 75px;
+}
+
+.shopping-cart_container:hover{
+	background-color: #5400A3;
+	cursor: pointer;
+}
+
+.shopping-cart{
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	color: white;
+	filter: invert(100%);
+}
+
 h4{
 	font-family: NewsPaper01;
 	font-size: 40px;
