@@ -59,3 +59,34 @@ body{
 	font-family: NewsPaper01;
 	color: white;
 	margin: 10px;
+	padding-bottom: 7px;
+}
+.nav-container ul a:hover{
+	border-radius: 3px;
+	border-bottom: 4px solid white;
+	transition: border-bottom .1s;
+}
+
+.icon-container{
+	position: relative;
+	padding-left: 10px;
+	top: 15px;
+	height: 65px;
+	display: inline-block;
+}
+
+.img__icono{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	box-sizing: content-box;
+	object-fit: contain;
+}
+
+.main_view{
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	width: 90em;
+	height: 110vh;
+}
