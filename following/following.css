@@ -1,0 +1,61 @@
+@font-face {
+	src: url(../fonts/News_Peper_01.ttf);
+	font-family: NewsPaper01;
+}
+
+@font-face{
+	src: url(../fonts/OldNewspaperTypes.ttf);
+	font-family: OldNewsPaper;
+}
+
+body{
+	background-image: url(../Assets/paper.png);
+}
+
+.newspaper_container{
+	display: flex;
+	position: absolute;
+	top: 100px;
+	right: auto;
+	height: 1050px;
+	width: 250px;
+}
+
+.newspaper_img{
+	width: 100%;
+	object-fit: none;
+	object-position: right;
+	-webkit-box-reflect: right 73vw;
+    -webkit-user-drag: none;
+}
+.header-main{
+	background-color: #2E0058FF;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.title-container{
+	position: relative;
+	top: 5px;
+	font-size: 60px;
+	display: inline-block;
+	font-family: 'OldNewsPaper', sans-serif;
+}
+
+.title-container a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav-container{
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+	left: 800px;
+}
+.nav-container ul a{
+	font-size: 35px;
+	font-family: NewsPaper01;
+	color: white;
+	margin: 10px;
