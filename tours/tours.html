@@ -3,12 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Your Indie Place</title>
-	<link rel="icon" href="Assets/icono.ico">
+	<link rel="icon" href="../Assets/icono.ico">
+	<link rel="stylesheet" type="text/css" href="tours.css">
+	<link rel="stylesheet" type="text/css" href="../normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<h1><a href="../main/index.html">You'r Indie Place</a></h1>
-		<nav>
+	<div class="newspaper_container">
+		<img class="newspaper_img" src="../Assets/newspaper_tileable_cut.png">
+	</div>
+	<header class="header-main">
+		<div class="icon-container">
+			<img class="img__icono" src="../Assets/icono.ico" alt="YIP_Icon" title="Icon">
+		</div>
+		<div class="title-container">
+			<a href="../main/index.html">You'r Indie Place</a>
+		</div>
+		<nav class="nav-container">
 			<ul>
 				<a href="../news/news.html">News</a>
 				<a href="../tours/tours.html">Tours</a>
@@ -18,5 +31,10 @@
 			</ul>
 		</nav>
 	</header>
+	<div class="news_merch-container">
+		<img class="New_Merch" src="../Assets/takeover-tour.jpg" alt="Takeover Tour" title="Takeover Tour">
+		<li class="tour_place">Denver</li>
+		<li class="tour_info">Mar Sep 2021</li>
+	</div>
 </body>
 </html>
