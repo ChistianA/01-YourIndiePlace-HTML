@@ -28,7 +28,6 @@ body{
 	-webkit-box-reflect: right 73vw;
     -webkit-user-drag: none;
 }
-
 .header-main{
 	background-color: #2E0058FF;
 	width: 100%;
@@ -55,7 +54,6 @@ body{
 	bottom: 6px;
 	left: 800px;
 }
-
 .nav-container ul a{
 	font-size: 35px;
 	font-family: NewsPaper01;
@@ -63,7 +61,6 @@ body{
 	margin: 10px;
 	padding-bottom: 7px;
 }
-
 .nav-container ul a:hover{
 	border-radius: 3px;
 	border-bottom: 4px solid white;
@@ -86,118 +83,42 @@ body{
 	object-fit: contain;
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-.search_bar_container{
-	height: 55px;
-	margin-top: 20px;
-	margin-left: 220px;
-}
-
-::placeholder{
-	color: #444;
-}
-
-.search_bar{
-	height: 50px;
-	width: 700px;
-	border-radius: 20px;
-	border-style: none;
-	background-color: #33333355;
-	color: #444;
-	font-family: OldNewsPaper;
-	font-size: 25px;
-	padding-left: 30px;
-	outline: none;
-}
-
-.shopping-cart_container{
+.main_view{
 	display: flex;
-	position: absolute;
-	border-style: none;
-	left: 930px;
-<<<<<<< Updated upstream
-	bottom: 707px;
-=======
-	bottom: 770px;
->>>>>>> Stashed changes
-	z-index: 5;
-	border-radius: 50px;
-	background-color: #2E0058FF;
-	height: 50px;
-	width: 75px;
-}
-
-.shopping-cart_container:hover{
-	background-color: #5400A3;
-	cursor: pointer;
-}
-
-.shopping-cart{
-	height: 40px;
-	width: 40px;
-	margin: auto;
-	color: white;
-	filter: invert(100%);
-}
-
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-h4{
-	font-family: NewsPaper01;
-	font-size: 40px;
-}
-.post-container{
-	display: flex;
-	height: 430px;
-	margin-left: 220px;
-	justify-content: space-between;
-	width: 1455px;
-	flex-wrap: wrap;
-}
-
-.post-container section{
-	background-color: #BBBBBB80;
-	height: 420px;
-	width: 450px;
-}
-
-.post-container h4{
-	width: 410px;
-	margin-left: 20px;
-	padding: 20px 20px 0 0;
-	border-bottom: 4px solid black;
-	border-radius: 3px;
-}
-
-.post-container img{
-	margin: 20px;
-}
-
-.Recent-post-container img{
-	width: 410px;
+	position: relative;
+	margin: 0 auto;
+	width: 90em;
+	height: 110vh;
 }
 
 .news_merch-container{
 	display: grid;
 	margin: 40px 0px 40px 220px;
 	margin-left: 220px;
-	grid-template-columns: 920px 520px;
-	grid-template-rows: repeat(9, 58px);
+	grid-template-columns: 720px 1fr;
+	grid-template-rows: 100px 1fr;
 	height: 530px;
 	width: 1440px;
 }
 
 .news_merch-container img{
 	width: 100%;
+	object-fit: cover;
+	object-position: top;
 }
 
-.news_merch-container li{
+.tour_place{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 50px;
+	list-style-type: none;
+	border-bottom: 3px solid #694B89FF;
+	padding-top: 15px;
+	padding-left: 18px;
+	background-color: #2E0058FF;
+}
+
+.tour_info{
 	color: white;
 	font-family: 'OldNewsPaper', sans-serif;
 	font-size: 25px;
@@ -212,4 +133,3 @@ h4{
 	height: 100%;
 	grid-row: 1 / 10;
 }
-
