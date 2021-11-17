@@ -17,7 +17,7 @@ body{
 	position: absolute;
 	top: 100px;
 	right: auto;
-	height: 1050px;
+	height: 1270px;
 	width: 250px;
 }
 
@@ -91,20 +91,24 @@ body{
 	height: 110vh;
 }
 
-.news_merch-container{
+.takeover-container{
 	display: grid;
 	margin: 40px 0px 40px 220px;
 	margin-left: 220px;
 	grid-template-columns: 720px 1fr;
-	grid-template-rows: 100px 1fr;
+	grid-template-rows: 100px repeat(5, 70px);
 	height: 530px;
 	width: 1440px;
 }
 
-.news_merch-container img{
-	width: 100%;
-	object-fit: cover;
-	object-position: top;
+.takeover-container button{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 25px;
+	border-bottom: 3px solid #694B89FF;
+	background-color: #694B89FF;
+	border-style: none;
+	cursor: pointer;
 }
 
 .tour_place{
@@ -129,7 +133,50 @@ body{
 	background-color: #2E0058FF;
 }
 
-.New_Merch{
+h2{
+	position: relative;
+	left: 220px;
+	margin-top: 20px;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 60px;
+	color: black;
+}
+
+.Takeover{
 	height: 100%;
-	grid-row: 1 / 10;
+	width: 100%;
+	object-fit: cover;
+	object-position: center -30px;
+	grid-row: 1 / 7;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*Wallows Tour*/
+
+.wallows-container{
+	display: grid;
+	margin: 40px 0px 40px 220px;
+	margin-left: 220px;
+	grid-template-columns: 720px 1fr;
+	grid-template-rows: 100px repeat(5, 70px);
+	height: 530px;
+	width: 1440px;
+}
+
+.wallows-container button{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 25px;
+	border-bottom: 3px solid #694B89FF;
+	background-color: #694B89FF;
+	border-style: none;
+	cursor: pointer;
+}
+
+.WallowsTour{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+	grid-row: 1 / 7;
 }
