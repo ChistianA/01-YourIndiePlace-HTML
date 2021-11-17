@@ -1,0 +1,182 @@
+@font-face {
+	src: url(../fonts/News_Peper_01.ttf);
+	font-family: NewsPaper01;
+}
+
+@font-face{
+	src: url(../fonts/OldNewspaperTypes.ttf);
+	font-family: OldNewsPaper;
+}
+
+body{
+	background-image: url(../Assets/paper.png);
+}
+
+.newspaper_container{
+	display: flex;
+	position: absolute;
+	top: 100px;
+	right: auto;
+	height: 1270px;
+	width: 250px;
+}
+
+.newspaper_img{
+	width: 100%;
+	object-fit: none;
+	object-position: right;
+	-webkit-box-reflect: right 73vw;
+    -webkit-user-drag: none;
+}
+.header-main{
+	background-color: #2E0058FF;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.title-container{
+	position: relative;
+	top: 5px;
+	font-size: 60px;
+	display: inline-block;
+	font-family: 'OldNewsPaper', sans-serif;
+}
+
+.title-container a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav-container{
+	display: inline-block;
+	position: relative;
+	bottom: 6px;
+	left: 800px;
+}
+.nav-container ul a{
+	font-size: 35px;
+	font-family: NewsPaper01;
+	color: white;
+	margin: 10px;
+	padding-bottom: 7px;
+}
+.nav-container ul a:hover{
+	border-radius: 3px;
+	border-bottom: 4px solid white;
+	transition: border-bottom .1s;
+}
+
+.icon-container{
+	position: relative;
+	padding-left: 10px;
+	top: 15px;
+	height: 65px;
+	display: inline-block;
+}
+
+.img__icono{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	box-sizing: content-box;
+	object-fit: contain;
+}
+
+.main_view{
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	width: 90em;
+	height: 110vh;
+}
+
+.takeover-container{
+	display: grid;
+	margin: 40px 0px 40px 220px;
+	margin-left: 220px;
+	grid-template-columns: 720px 1fr;
+	grid-template-rows: 100px repeat(5, 70px);
+	height: 530px;
+	width: 1440px;
+}
+
+.takeover-container button{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 25px;
+	border-bottom: 3px solid #694B89FF;
+	background-color: #694B89FF;
+	border-style: none;
+	cursor: pointer;
+}
+
+.tour_place{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 50px;
+	list-style-type: none;
+	border-bottom: 3px solid #694B89FF;
+	padding-top: 15px;
+	padding-left: 18px;
+	background-color: #2E0058FF;
+}
+
+.tour_info{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 25px;
+	list-style-type: none;
+	border-bottom: 3px solid #694B89FF;
+	padding-top: 12px;
+	padding-left: 18px;
+	background-color: #2E0058FF;
+}
+
+h2{
+	position: relative;
+	left: 220px;
+	margin-top: 20px;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 60px;
+	color: black;
+}
+
+.Takeover{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center -30px;
+	grid-row: 1 / 7;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*Wallows Tour*/
+
+.wallows-container{
+	display: grid;
+	margin: 40px 0px 40px 220px;
+	margin-left: 220px;
+	grid-template-columns: 720px 1fr;
+	grid-template-rows: 100px repeat(5, 70px);
+	height: 530px;
+	width: 1440px;
+}
+
+.wallows-container button{
+	color: white;
+	font-family: 'OldNewsPaper', sans-serif;
+	font-size: 25px;
+	border-bottom: 3px solid #694B89FF;
+	background-color: #694B89FF;
+	border-style: none;
+	cursor: pointer;
+}
+
+.WallowsTour{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+	grid-row: 1 / 7;
+}
